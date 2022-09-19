@@ -1,7 +1,7 @@
 # jsdevin-cli 脚手架工具
 
 ## 创建项目指令
-思路如下：
+开发思路如下：
 1. 创建解析create指令
 2. 通过download-git-repo从代码仓库中下载模板
 3. 进入目录，并且执行 `npm install`命令
@@ -9,7 +9,7 @@
 5. 打开浏览器
 
 ## 创建添加组件-页面-vuex命令
-思路如下：
+开发思路如下：
 1. 创建addcpn、addpage、addstore的命令
 2. 准备好对应的ejs模块（`component.vue.ejs`, `vue-router.js.ejs`, `vue-store.js.ejs`, `vue-types.js.ejs`） 
 3. 封装编译ejs模块的函数
